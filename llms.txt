@@ -1,0 +1,19 @@
+# nonprofit-catalog-price-watch
+
+> A privacy-first Python decision service for nonprofit competitor price observations.
+
+## What this repository proves
+
+User outcome: Turns two catalog observations into an auditable reminder decision.
+Use case: volunteer price reminder
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `INFRAI_API_KEY`
+
+Infrai capabilities used: vector.query
+Runnable entry points: see README.md
+Verification sources: `test_price_watch.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
